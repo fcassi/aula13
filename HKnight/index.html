@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="meuModal">
+        <div class="mcontent">
+            <div class="text">Trailer: Hollow Knight
+            <span class="fechado" onclick="fechar()">&times;</span></div>
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Y2amTl5lBYM" title="Trailer oficial" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <header>
+        <div class="nav">
+            <img src="imgs/hklogo.png" alt="Menu Logo">
+
+            <ul>
+                <li>Home</li>
+                <li>Detalhes</li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="summary">
+            <img src="imgs/logo.webp" alt="">
+            <div class="text">
+                <p>
+                    Hollow Knight é um jogo indie criado pela Team Cherry. É um metroidvania cativante, rico em
+                    ambientes belos, personagens marcantes, trilha sonora fenomenal, história muito bem construída e uma
+                    jogabilidade
+                    fácil de aprender, mas ainda assim oferece desafios até para os jogadores mais experientes
+                </p>
+            </div>
+
+            <button class="btn" onclick="aberto()">VEJA O TRAILER</button>
+        </div>
+        <img src="imgs/knight.webp" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
